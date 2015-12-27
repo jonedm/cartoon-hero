@@ -5,23 +5,40 @@ html, body{
 
 header{
 	background-color: #ff6666;
-	padding: 40px;
+	padding: 20px;
+	margin-bottom: 40px;
 	text-align: center;
+	
 }
 
 h1{
 	font-size: 90px;
 	color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+h2{
+	text-indent: 10px;
+	color: white;
+	background-color: #ff6666;
+	border-style: solid;
+	border-radius: 8px;
+	border-color: #ff6666;
 }
 
 header img{
 	width: 350px;
 }
 
+span p{
+
+}
+
 .content{
 	max-width: 900px;
 	margin: 0 auto;
-	padding: 0 20px;
+	padding: 0 auto;
 }
 
 img.big-image{
@@ -35,6 +52,7 @@ p.caption{
 }
 
 ul{
+	text-indent: 10px;
 	list-style: none;
 	padding: 0px;
 	margin: 0px;
@@ -49,7 +67,7 @@ a{
 footer{
 	margin-top: 20px;
 	padding: 40px 20px;
-	background-color: #ff6666;
+	background-color: #ffe5e5;
 }
 
 footer ul{
