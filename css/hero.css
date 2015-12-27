@@ -1,0 +1,67 @@
+html, body{
+	font-family: arial, sans-serif;
+	margin: 0;
+}
+
+header{
+	background-color: #ff6666;
+	padding: 40px;
+	text-align: center;
+}
+
+h1{
+	font-size: 90px;
+	color: white;
+}
+
+header img{
+	width: 350px;
+}
+
+.content{
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+img.big-image{
+	max-width: 100%;
+}
+
+p.caption{
+	font-size: 16px;
+	color: lightgrey;
+	font-style: italic;
+}
+
+ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+a{
+	color: blue;
+	text-decoration: none;
+	padding-bottom: 20px;
+}
+
+footer{
+	margin-top: 20px;
+	padding: 40px 20px;
+	background-color: #ff6666;
+}
+
+footer ul{
+	text-align: center;
+}
+
+footer ul li{
+	display: inline;
+	margin: 0 5px;
+}
+
+/*<header>
+				<img src="img/profile.png">
+				<h1>Super Mario</h1>
+			</header>
